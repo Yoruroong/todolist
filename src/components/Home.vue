@@ -1,5 +1,6 @@
 <template>
 <v-container>
+    {{todoList}}
     <v-layout row wrap>
         <v-flex xs6>
             <List/>
@@ -30,7 +31,7 @@ export default {
     methods: {
         listAdd(memo) {
             console.log("받음!" + memo)
-            this.todoList.push(memo)
+            this.todoList.push({memo: memo, status: 'created'})
         }
     }
 }
