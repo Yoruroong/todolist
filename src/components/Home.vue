@@ -25,7 +25,7 @@ export default {
     },
     data() {
         return {
-            todoList: []
+            todoList: ["투두리스트를 입력하세요"]
         }
     },
     methods: {
