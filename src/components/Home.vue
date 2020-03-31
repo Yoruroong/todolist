@@ -30,7 +30,7 @@ export default {
     },
     methods: {
         listAdd(memo) {
-            console.log("받음!" + memo)
+            console.log("recieve!" + memo)
             this.todoList.push({memo: memo, status: 'created'})
         }
     }
