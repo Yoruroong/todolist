@@ -1,5 +1,5 @@
 <template>
     <div>
-        {{todoList}}
+        TODO 리스트
     </div>
 </template>
