@@ -21,7 +21,7 @@ export default {
         listAdd() {
             console.log('리스트 추가')
             if(this.memo === null){
-                alert('저기요?')
+                alert('내용을 입력해 주세요.')
             }
             this.$emit('listAdd', this.memo)
         }
