@@ -3,7 +3,7 @@
         <v-textarea
           outlined
           v-model="memo"
-          label="투두리스트를 입력해주세요"
+          label="투두리스트를 입력해주세요(TODOLIST)"
           value=""
         ></v-textarea>
         <v-btn @click="listAdd">리스트 추가</v-btn>
