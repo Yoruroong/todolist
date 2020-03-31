@@ -1,4 +1,4 @@
-# new-cli-project
+# NEW TODOLIST PROJECT
 
 ## Project setup
 ```
