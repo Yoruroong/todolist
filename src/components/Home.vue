@@ -6,9 +6,7 @@
             <List/>
         </v-flex>
         <v-flex xs6>
-            <ListAdd
-                @listAdd="listAdd"
-            />
+            <ListAdd @listAdd="listAdd"/>
         </v-flex>
     </v-layout>
 </v-container>
