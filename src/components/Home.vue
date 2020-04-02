@@ -25,12 +25,12 @@ export default {
     },
     data() {
         return {
-            todoList: ["설명 : 투두리스트를 입력하세요"]
+            todoList: []
         }
     },
     methods: {
         listAdd(memo) {
-            console.log("recieve!" + memo)
+            // console.log("recieve!" + memo)
             this.todoList.push({memo: memo, status: 'created'})
         }
     }

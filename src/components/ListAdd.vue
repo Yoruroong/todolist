@@ -22,6 +22,7 @@ export default {
             console.log('리스트 추가')
             if(this.memo === null){
                 alert('내용을 입력해 주세요.')
+                // alert("이 페이지에서 알림 비허용 하지 말아주세요")
             }
             this.$emit('listAdd', this.memo)
         }
