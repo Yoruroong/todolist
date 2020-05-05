@@ -37,3 +37,4 @@ npm run e2e
 # run all tests
 npm test
 ```
+마지막 프로젝트는 아니겠네요
