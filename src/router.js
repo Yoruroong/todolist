@@ -16,7 +16,6 @@ export default new Router({
     {
       path: '/about',
       name: 'about',
-      // route level code-splitting    
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     }
   ]
